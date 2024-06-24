@@ -45,7 +45,7 @@
 		<button onclick="changeViewMode('Quarter Day')">Quarter Day</button>
 		<button onclick="changeViewMode('Half Day')">Half Day</button>
 		<button onclick="changeViewMode('Week')">Week</button>
-		<!-- <button onclick="addNewTask()">Add New Task</button> -->
+		<button onclick="addNewTask()">Add New Task</button>
 	</div>
 	<script>
 		var taskList = [
@@ -145,10 +145,10 @@
 
 		function addNewTask() {
 			var task = {
-				start: '2024-05-28 08:00:00',
-				end: '2024-05-28 17:00:00',
+				start: '2024-06-28 08:00:00',
+				end: '2024-06-28 17:00:00',
 				name: 'Testing',
-				id: 'Task ' + tasks.length,
+				id: "Task 3",
 				progress: parseInt(Math.random() * 100, 10),
 				custom_class: 'cc-red',
 				dependencies: '',
